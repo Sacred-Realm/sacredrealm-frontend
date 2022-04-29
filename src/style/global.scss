@@ -1,0 +1,96 @@
+.display_flex {
+  display: flex;
+}
+.margin0 {
+  margin-right: 0 !important;
+}
+img{
+  object-fit: contain;
+}
+.demo_font_color{
+  background: linear-gradient(180deg, #825F35 0%, #FADD82 51%, #876333 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+// 字体样式
+@font-face {
+  font-family: "TrajanPro-Bold";
+  src: url("../assets/fonts/TrajanPro-Bold-4.otf");
+}
+@font-face {
+  font-family: "WenYue-GuDianMingChaoTi-JRFC";
+  src: url("../assets/fonts/WenYue-GuDianMingChaoTi-JRFC-2.otf");
+}
+@font-face {
+  font-family: "TrajanPro-Regular";
+  src: url("../assets/fonts/Times New Roman.ttf");
+}
+@font-face {
+  font-family: "Facon";
+  src: url("../assets/fonts/Facon-2.ttf");
+}
+
+// // 英文特殊体
+// .ff_en_special {
+//   font-family: Facon;
+// }
+// // 英文常规
+// .ff_en_regular {
+//   font-family: TrajanPro-Regular;
+// }
+// // 英文粗体
+// .ff_en_bold {
+//   font-family: TrajanPro-Bold;
+// }
+// // 中文常规
+// .ff_cn_regular {
+//   font-family: WenYue-GuDianMingChaoTi-JRFC;
+// }
+
+//英文粗体
+.en_Bold {
+  font-family: TrajanPro-Bold !important;
+}
+//英文细体
+.en_Regular {
+  font-family: TrajanPro-Regular !important;
+}
+// 英文特殊字体
+.en_special {
+  font-family: Facon !important;
+}
+// 中文
+.cn_lang {
+  font-family: WenYue-GuDianMingChaoTi-JRFC !important;
+}
+// 大标题字号
+.font45 {
+  font-size: 45px;
+}
+// banner 标题 eg:token
+.font34 {
+  font-size: 34px;
+}
+// 主按钮字号
+.font28 {
+  font-size: 28px;
+}
+.font26 {
+  font-size: 26px;
+}
+.font22 {
+  font-size: 22px;
+}
+.font20 {
+  font-size: 20px;
+}
+.font18 {
+  font-size: 18px;
+}
+// 正文字号
+.font16 {
+  font-size: 16px;
+}
+.font14 {
+  font-size: 14px;
+}
